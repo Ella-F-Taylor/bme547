@@ -5,7 +5,7 @@
 import math
 
 print("This program determines if the roots of a quadratic equation are real and of same or different signs")
-numbers = input("Enter a, b, c: ").replace(",", "").split()
+numbers = input("Enter a, b, c: ").replace(",", "").split() #did this as the regular input was giving me errors even entering 1 or 1.0
 a, b, c = map(float, numbers)
 
 discriminant = b**2 - 4*a*c
